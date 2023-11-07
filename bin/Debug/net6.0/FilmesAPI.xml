@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmesAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FilmesAPI.Controllers.FilmeController.AdicionaFilme(FilmesAPI.Data.Dtos.UpdateFilmeDto)">
+            <summary>
+            Adiciona um filme ao banco de dados
+            </summary>
+            <param name="filmeDto">Objeto com os campos necessários para criação de um filme</param>
+            <returns>IActionResult</returns>
+            <response code="201">Caso inserção seja feita com sucesso</response>
+        </member>
+        <member name="T:FilmesAPI.Migrations.FilmeDb">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.FilmeDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.FilmeDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.FilmeDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesAPI.Migrations.EnderecoRestrict">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.EnderecoRestrict.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.EnderecoRestrict.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.EnderecoRestrict.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
